@@ -19,9 +19,9 @@ This repo consist of generating live CPU stats while execution is in progress
    > - `robot --listener MemoryStatsListener.py Tests` 
 
  - Step 4: A new browser will be opened with logs
-   > Note: Page refresh's for every 5 seconds.
+   > Note: Page refresh's for every 100 seconds.
    > - Users can modify reload time from .py file
-   > - `<meta http-equiv="refresh" content="5" >`
+   > - `<meta http-equiv="refresh" content="100" >`
 
 ---
 ### Screenshot
