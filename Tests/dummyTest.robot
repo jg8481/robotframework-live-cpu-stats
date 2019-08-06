@@ -10,3 +10,11 @@ Second Test Case
 Third Test Case
     Sleep   1s
     Log   Done
+
+Fourth Test Case
+    :FOR   ${index}   IN RANGE   1   5
+        \   My Log To Check
+
+*** Keywords ***
+My Log To Check
+    Log   Dummy
