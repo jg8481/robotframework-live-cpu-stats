@@ -53,8 +53,8 @@ class KeywordsMemoryStatsListener:
         self.test_count = len(attrs['tests'])
     
     def start_test(self, name, attrs):
-        self.test_name = name
         if self.test_count != 0:
+            self.test_name = name
             self.statsBefore = get_cpu_and_memory_usage_stats()
     
     def start_keyword(self, name, attrs):
